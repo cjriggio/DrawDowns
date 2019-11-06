@@ -8,7 +8,7 @@ Drawdowns are most commonly expressed in percentage form but can also be express
 ## The Process 
 I pulled one year of stock data via Yahoo Finance for Domino's Pizza (DPZ) from 11/1/2018 to 11/1/2019 using **pandas_datareader.web**. 
 
-Please note that this method does not work on Pandas 0.25. If you are using the most recent version of Pandas and you want to pull stock data from Yahoo Finacnce using this method you will have to do the followng:
+Please note that this method does not work on Pandas 0.25. If you are using the most recent version of Pandas and you want to pull stock data from Yahoo Finance using this method you will have to do the followng:
 ```python
 pip install "pandas<0.25.0"
 ```
