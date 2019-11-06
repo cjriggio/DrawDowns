@@ -24,7 +24,8 @@ def PriceDate(stock_df):
  
  ![Drawdown-df](images/dpz-drawdown-df.png)
  
-Lastly I used Seaborn to visualize the results with the green dotted lines representing Peak Days and the red dotted lines representing Trough Days: 
+Lastly I used Seaborn to visualize the results with the green dotted lines representing **Peak Days** and the red dotted lines representing **Trough Days**: 
  
 ![Drawdown-df](images/dpz-drawdown-graph.png)
  
+Obviousy this graph isn't the easiest to read especially when peak and trough days are only apart by a day or so, but it can give you a general sense of the way a partiular stock behaves. For example you can observe that the most recent drawdown was 197 days with a trough price of $221.87. And even though the stock has been on a steady increase since the end of August 2019 its still has a ways to go before it hits another peak. 
