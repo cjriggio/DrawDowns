@@ -13,7 +13,7 @@ Please note that this method does not work on Pandas 0.25. If you are using the 
 pip install "pandas<0.25.0"
 ```
 
-This method will return a Pandas dataframe with the date as the index, along with a column for the high, low, open and close prices for each day, as well as the volumne and adjusted close. For this particular analysis we only want need to focus on the adjusted close and the date so we'll use the following function:
+This method will return a Pandas dataframe with the date as the index, along with a column for the high, low, open and close prices for each day, as well as the volume and adjusted close. For this particular analysis we only want to focus on the adjusted close and the date so we'll use the following function to create a new dataframe:
 ```python
 def PriceDate(stock_df):
     stock_df = stock_df.reset_index()
