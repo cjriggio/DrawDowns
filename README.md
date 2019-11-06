@@ -24,6 +24,7 @@ def PriceDate(stock_df):
  
  ![Drawdown-df](images/dpz-drawdown-df.png)
  
- Lastly I used Seaborn to visualize the results: 
+Lastly I used Seaborn to visualize the results with the green dotted lines representing Peak Days and the red dotted lines representing Trough Days: 
  
- ![Drawdown-df](images/dpz-drawdown-graph.png)
+![Drawdown-df](images/dpz-drawdown-graph.png)
+ 
